@@ -1,0 +1,215 @@
+# depslib dependency file v1.0
+1745710037 source:c:\users\bicomp\desktop\wordsgame me\sources\screens\currentscreen.c
+	"../../Headers/screens/currentScreen.h"
+
+1745713879 c:\users\bicomp\desktop\wordsgame me\headers\screens\currentscreen.h
+
+1745716526 source:c:\users\bicomp\desktop\wordsgame me\sources\config.c
+	"../Headers/config.h"
+
+1745714587 c:\users\bicomp\desktop\wordsgame me\headers\config.h
+	<stddef.h>
+	"raylib.h"
+
+1745528889 c:\users\bicomp\desktop\wordsgame me\include\raylib.h
+	<stdarg.h>
+	<stdbool.h>
+
+1745716633 source:c:\users\bicomp\desktop\wordsgame me\sources\main.c
+	"../Headers/config.h"
+	"../Headers/screens/logoScreen.h"
+
+1745716358 c:\users\bicomp\desktop\wordsgame me\headers\screens\logoscreen.h
+	<math.h>
+	"raylib.h"
+	"../config.h"
+
+1745717402 source:c:\users\bicomp\desktop\wordsgame me\sources\screens\logoscreen.c
+	"../../Headers/screens/logoScreen.h"
+
+1745785029 source:c:\users\bicomp\desktop\avancement de me\wordsgame me\sources\config.c
+	"../Headers/config.h"
+
+1745785036 c:\users\bicomp\desktop\avancement de me\wordsgame me\headers\config.h
+	<stddef.h>
+	"raylib.h"
+
+1745528889 c:\users\bicomp\desktop\avancement de me\wordsgame me\include\raylib.h
+	<stdarg.h>
+	<stdbool.h>
+
+1745946712 source:c:\users\bicomp\desktop\avancement de me\wordsgame me\sources\main.c
+	"../Headers/main.h"
+
+1745768712 c:\users\bicomp\desktop\avancement de me\wordsgame me\headers\screens\logoscreen.h
+	<math.h>
+	"raylib.h"
+	"../config.h"
+
+1745768727 source:c:\users\bicomp\desktop\avancement de me\wordsgame me\sources\screens\currentscreen.c
+	"../../Headers/Screens/currentScreen.h"
+
+1745713879 c:\users\bicomp\desktop\avancement de me\wordsgame me\headers\screens\currentscreen.h
+
+1745768418 source:c:\users\bicomp\desktop\avancement de me\wordsgame me\sources\screens\logoscreen.c
+	"../../Headers/Screens/logoScreen.h"
+
+1745533206 source:c:\users\bicomp\desktop\avancement de me\wordsgame me\sources\engine\raygui_impl.c
+	"raygui.h"
+
+1745530849 c:\users\bicomp\desktop\avancement de me\wordsgame me\include\raygui.h
+	"raylib.h"
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<math.h>
+
+1745946678 c:\users\bicomp\desktop\avancement de me\wordsgame me\headers\main.h
+	"Scenes/Scenes.h"
+	"Core/config.h"
+	"Assets/Init/assets.h"
+	"Assets/Styles/styles.h"
+
+1745954870 source:c:\users\bicomp\desktop\avancement de me\wordsgame me\sources\user\user.c
+	"../../Headers/User/user.h"
+	<stdio.h>
+	<string.h>
+	<stdbool.h>
+
+1745960240 c:\users\bicomp\desktop\avancement de me\wordsgame me\headers\user\user.h
+	<stdbool.h>
+
+1745768481 source:c:\users\bicomp\desktop\avancement de me\wordsgame me\sources\words\trie.c
+	"../../Headers/Words/trie.h"
+
+1745528889 c:\users\bicomp\desktop\avancement de me\wordsgame me\headers\words\trie.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1745768491 source:c:\users\bicomp\desktop\avancement de me\wordsgame me\sources\words\wordlist.c
+	"../../Headers/Words/wordlist.h"
+
+1745528889 c:\users\bicomp\desktop\avancement de me\wordsgame me\headers\words\wordlist.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"trie.h"
+
+1745798950 source:c:\users\bicomp\desktop\avancement de me\wordsgame me\sources\scenes\scene.c
+	"../../Headers/Scenes/Scenes.h"
+
+1745798687 c:\users\bicomp\desktop\avancement de me\wordsgame me\headers\scenes\scenes.h
+	"logoScene.h"
+	"usermanagementScreen.h"
+	"../Assets/Init/assets.h"
+
+1745797422 c:\users\bicomp\desktop\avancement de me\wordsgame me\headers\scenes\logoscene.h
+	"raylib.h"
+	"../Core/config.h"
+	"../Core/graphics.h"
+	"../Assets/Init/assets.h"
+	"Scenes.h"
+
+1745879873 source:c:\users\bicomp\desktop\avancement de me\wordsgame me\sources\scenes\logoscene.c
+	"../../Headers/Scenes/logoScene.h"
+
+1745869579 c:\users\bicomp\desktop\avancement de me\wordsgame me\headers\assets\init\assets.h
+	"raylib.h"
+	"stddef.h"
+
+1745946682 source:c:\users\bicomp\desktop\avancement de me\wordsgame me\sources\assets\init\assets.c
+	"../../../Headers/Assets/Init/assets.h"
+
+1745790617 c:\users\bicomp\desktop\avancement de me\wordsgame me\headers\core\config.h
+	<stddef.h>
+	"raylib.h"
+
+1745792540 source:c:\users\bicomp\desktop\avancement de me\wordsgame me\sources\core\config.c
+	"../../Headers/Core/config.h"
+
+1745802210 source:c:\users\bicomp\desktop\avancement de me\wordsgame me\sources\core\graphics.c
+	"../../Headers/core/graphics.h"
+
+1745792496 c:\users\bicomp\desktop\avancement de me\wordsgame me\headers\core\graphics.h
+	"raylib.h"
+	<math.h>
+
+1745956912 source:c:\users\bicomp\desktop\avancement de me\wordsgame me\sources\scenes\usermanagementscreen.c
+	"../../Headers/Scenes/usermanagementScreen.h"
+
+1745956714 c:\users\bicomp\desktop\avancement de me\wordsgame me\headers\scenes\usermanagementscreen.h
+	"raygui.h"
+	"raylib.h"
+	"../Assets/Init/assets.h"
+	"../Assets/UI/Button/usermenuButton.h"
+	"../Assets/List/userList.h"
+	"Scenes.h"
+	"../Core/config.h"
+	"../User/user.h"
+	"string.h"
+
+1745848891 source:c:\users\bicomp\desktop\avancement de me\wordsgame me\sources\assets\ui\button.c
+
+1745929803 source:c:\users\bicomp\desktop\avancement de me\wordsgame me\sources\assets\ui\button\usermenubutton.c
+	"../../../../Headers/Assets/UI/Button/usermenuButton.h"
+
+1745958498 source:c:\users\bicomp\desktop\avancement de me\wordsgame me\sources\assets\ui\button\button.c
+	"../../../../Headers/Assets/UI/Button/button.h"
+
+1745869643 c:\users\bicomp\desktop\avancement de me\wordsgame me\headers\assets\ui\button\button.h
+	"raygui.h"
+	"raylib.h"
+	"../../Init/assets.h"
+
+1745960763 c:\users\bicomp\desktop\avancement de me\wordsgame me\headers\assets\ui\button\usermenubutton.h
+	"raylib.h"
+	"button.h"
+	"string.h"
+	"../../Init/assets.h"
+	"../Box/box.h"
+	"../Box/box_logic.h"
+
+1745960144 source:c:\users\bicomp\desktop\avancement de me\wordsgame me\sources\assets\ui\box\box.c
+	"../../../../Headers/Assets/UI/Box/box.h"
+
+1745883702 source:c:\users\bicomp\desktop\avancement de me\wordsgame me\sources\assets\ui\box\usermenubox.c
+
+1745928973 source:c:\users\bicomp\desktop\avancement de me\wordsgame me\sources\assets\ui\styles\styles.c
+	"../../../../Headers/Assets/Styles/styles.h"
+
+1745928808 c:\users\bicomp\desktop\avancement de me\wordsgame me\headers\assets\styles\styles.h
+	"raygui.h"
+	"../Init/assets.h"
+
+1745950068 c:\users\bicomp\desktop\avancement de me\wordsgame me\headers\assets\ui\box\box.h
+	"raylib.h"
+	"raygui.h"
+	<string.h>
+	"../../Init/assets.h"
+	"../../Styles/styles.h"
+
+1745883776 c:\users\bicomp\desktop\avancement de me\wordsgame me\headers\assets\ui\box\usermenubox.h
+
+1745958052 source:c:\users\bicomp\desktop\avancement de me\wordsgame me\sources\assets\list\userlist.c
+	"../../../Headers/Assets/List/userList.h"
+
+1745956741 c:\users\bicomp\desktop\avancement de me\wordsgame me\headers\assets\list\userlist.h
+	"raylib.h"
+	"../../User/user.h"
+
+1745960697 source:c:\users\bicomp\desktop\avancement de me\wordsgame me\sources\assets\ui\box\box_logic.c
+	"../../../../Headers/Assets/UI/Box/box_logic.h"
+
+1745960600 c:\users\bicomp\desktop\avancement de me\wordsgame me\headers\assets\ui\box\box_logic.h
+	"../../../User/user.h"
+	"raylib.h"
+	"box.h"
+	<ctype.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+

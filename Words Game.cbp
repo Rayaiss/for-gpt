@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Words Game" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Headers/;Headers/ui/userMenu/;Sources/ui/userMenu/" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Words Game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c99" />
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="lib/libraylib.a" />
+					<Add library="lib/libraylibdll.a" />
+					<Add library="lib/libwinmm.a" />
+					<Add directory="lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Words Game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Assets/Databases/Dictionary.txt" />
+		<Unit filename="Assets/Databases/users.dat" />
+		<Unit filename="Assets/Fonts/Mydnite-R9Lde.otf" />
+		<Unit filename="Assets/Images/WordsGameLogo.png" />
+		<Unit filename="Assets/Images/miniWordsGameLogo.png" />
+		<Unit filename="Assets/Musics/01-Stardew-Valley-Overture.ogg" />
+		<Unit filename="Assets/Musics/01.-Timber-Hearth.ogg" />
+		<Unit filename="Assets/Musics/userSceneOST.ogg" />
+		<Unit filename="Assets/Sounds/click.wav" />
+		<Unit filename="Assets/Sounds/error.wav" />
+		<Unit filename="Assets/Sounds/success.wav" />
+		<Unit filename="Headers/Assets/Init/assets.h" />
+		<Unit filename="Headers/Assets/List/userList.h" />
+		<Unit filename="Headers/Assets/Styles/styles.h" />
+		<Unit filename="Headers/Assets/UI/Box/box.h" />
+		<Unit filename="Headers/Assets/UI/Box/box_logic.h" />
+		<Unit filename="Headers/Assets/UI/Box/usermenuBox.h" />
+		<Unit filename="Headers/Assets/UI/Button/button.h" />
+		<Unit filename="Headers/Assets/UI/Button/usermenuButton.h" />
+		<Unit filename="Headers/Core/config.h" />
+		<Unit filename="Headers/Core/graphics.h" />
+		<Unit filename="Headers/Scenes/Scenes.h" />
+		<Unit filename="Headers/Scenes/logoScene.h" />
+		<Unit filename="Headers/Scenes/usermanagementScreen.h" />
+		<Unit filename="Headers/User/user.h" />
+		<Unit filename="Headers/main.h" />
+		<Unit filename="Sources/Assets/Init/assets.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources/Assets/List/userList.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources/Assets/UI/Box/box.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources/Assets/UI/Box/box_logic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources/Assets/UI/Box/usermenuBox.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources/Assets/UI/Button/button.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources/Assets/UI/Button/usermenuButton.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources/Assets/UI/Styles/styles.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources/Core/config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources/Core/graphics.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources/Engine/raygui_impl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources/Scenes/Scene.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources/Scenes/logoScene.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources/Scenes/usermanagementScreen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources/User/user.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources/Words/trie.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources/Words/wordlist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="include/raygui.h" />
+		<Unit filename="include/raylib.h" />
+		<Unit filename="include/raymath.h" />
+		<Unit filename="include/rlgl.h" />
+		<Unit filename="lib/libraylib.a" />
+		<Unit filename="lib/libraylibdll.a" />
+		<Unit filename="lib/raylib.dll" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
